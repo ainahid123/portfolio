@@ -4,14 +4,26 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    margin: 50px;
+    margin: 0 4%;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.info, p{
+    text-align: justify;
 }
 .orange-color{
     color: orange;
 }
-p{
-    color: black;
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
 }
-button{
-    size: 25px;
-}
+
